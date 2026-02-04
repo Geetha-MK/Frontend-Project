@@ -1,0 +1,50 @@
+body {
+  background-color: #8ff0ee;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+/* About container */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+/* Left text */
+.about-text {
+  width: 60%;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Right image */
+.about-image img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  border: 6px solid black;
+  object-fit: cover;
+}
+#abtme {
+    margin-bottom: 5px;
+}
+#skills {
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .about-description {
+    margin: 15px 20px;
+    text-align: center;
+  }
+
+  .about-section {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+
+
